@@ -166,7 +166,7 @@ document.getElementById('fileInput').addEventListener('change', function(e) {
       
       const block = document.createElement("div");
       block.className = "category-block";
-      block.style.backgroundColor = rowIndex % 2 === 0 ? "#ffffff" : "#f8f8f8";
+      block.style.backgroundColor = rowIndex % 2 === 0 ? "#ffffff" : "#e8e8e8";
       block.style.padding = "10px";
       block.style.marginBottom = "10px";
       block.style.borderRadius = "8px";
