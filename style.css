@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background: #fafafa;
+    font-family: 'Noto Sans', sans-serif;
+    font-optical-sizing: auto;
+    padding: 20px;
+}
+
+.category-block {
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin: 10px auto;
+    max-width: 1200px;
+}
+  
+.category-block:nth-child(odd) {
+    background-color: #f0f0f0;
+}
+  
+.category-block:nth-child(even) {
+    background-color: #ffffff;
+}
+  
+.category-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #1a2023;
+}
+
+#output {
+    margin-top: 6rem;
+}
+
+.category-block button:hover {
+    opacity: 0.7;
+    transition: opacity 0.2s ease-in-out;
+}
+
+#totalCount {
+    font-size: 16px;
+    color: #aaaaaa;
+    margin-left: 8px;
+    font-weight: 400;
+}  
+
+#fileInput,
+button {
+    cursor: pointer;
+}
